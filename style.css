@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+#nav {
+  /*border: 1px solid red;*/
+  background-color: rgba(150,150,150,.65);
+  height: 100%;
+  width: 15%;
+  border-radius: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.container{
+  padding-top: 20px;
+}
+.menu{
+  padding: inherit;
+}
+.menu li{
+  border: 1px solid #fff;
+  border-radius: 8px;
+  margin: 10px;
+  list-style-type: none;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  margin-bottom: 20px;
+}
+a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+li:hover {
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+li:hover a {
+  color: #ff6600;
+  font-weight: 800;
+}
+#content{
+  left:280px;
+  position:absolute;
+}
+#my-icon {
+  margin-right: 20px;
+  float:left;
+  border: 2px solid black;
+}
+#my-icon img {
+  width:200px;
+}
+table {
+  font-size: 14px;
+  text-align: left;
+}
+th, td {
+  vertical-align: top;
+}
+td {
+  color: #6C6C6C;
+  padding-left: 10px;
+}
+.item-info {
+  /*border: 1px solid red;*/
+  background-color: rgba(255,255,255,.65);   /* 背景半透明 */
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 25px 10px;
+
+  opacity: 0;
+}
+.item-info:hover {
+  opacity: 1;
+}
+.item {
+  max-width: 30%;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.item img {
+  width: 100%;
+}
+#my-wallpaper-gallery img{
+
+}
+form.contact-form {
+  /*border: 1px solid red;*/
+  width: 25%;
+
+}
+.form-row {
+  margin-bottom: 15px;
+}
+
+
+.form-row input, .form-row textarea {
+  border-radius: 3px;
+  width: 100%;
+  border: 1px solid #D6D9DC;
+  padding: 7px;
+}
+
+.form-row textarea {
+  resize: none;
+  height: 4em;
+}
+.form-row button {
+  border: none;
+  border-radius: 3px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.form-row button[type="sumbit"] {
+  background-color: #5995DA;
+  color: #FFFFFF;
+}
+
+.form-row button:hover {
+  background-color: #76AEED;
+}
+
+.form-row button:active {
+  background-color: #407FC7;
+}
+form{
+  border:1px solid yellow;
+  padding:3px;
+}
+hr.bar{
+  border: 2px solid #ff6600;
+  margin-top:20px;
+}
